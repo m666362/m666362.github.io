@@ -230,34 +230,29 @@ export const projects = [
         text: "Android Apps",
         arr: [
             {
-                title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮ - (Discontinued)',
-                logo: 'https://lh3.googleusercontent.com/zuluY4xOXx7PIMCvul4fowmOvMlc-3wsHwxGAASo3qZQ-9byd-uJWZ9kzUgclD4Nhrg=s180',
-                desc: 'FIFA Worldcup 2018 All In One ',
-                link: 'https://apkpure.com/%E0%A6%AB%E0%A6%BF%E0%A6%AB%E0%A6%BE-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%A1%E0%A6%95%E0%A6%BE%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%AE-live-tv-scores-more/p32929.worldcup2018'
-            },
-            {
                 title: 'Food Store',
                 logo: 'https://thumbs.dreamstime.com/b/vegetables-shopping-cart-trolley-grocery-logo-icon-design-vector-171090350.jpg',
                 desc: 'A better & more reliable alternative of traditional foor store.',
-                link: 'https://apkpure.com/sleepy-phone-addiction-controller/p32929.lazyphone'
             },
             {
                 title: 'Health Benefit of Sunnah',
                 logo: 'https://lh3.googleusercontent.com/ILrto9KguXlr-clbhYKUonpnHszgNp_N5Qvc8_u9QaM71oaqNKcYql2sV3sqZ7nqzsc=s180',
                 desc: 'Details description of Sunnah way of life.',
-                link: 'https://apkpure.com/desplash-beautiful-automatic-unsplash-wallpapers/p32929.desplash'
             },
             {
                 title: 'FireBase Chat',
                 logo: 'https://image.freepik.com/free-vector/chat-logo-design_93835-108.jpg',
                 desc: 'Powerful, Lightweight firebase chat app.',
-                link: 'https://apkpure.com/rest-api-client-the-great-postman/p32929.greatpostman'
             },
             {
                 title: 'Calculator',
                 logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7j6UsUyaEGat3jSDTWgjBuda-di6rc790Ng&usqp=CAU',
                 desc: 'The one and only EFFECTIVE addiction remover on Google Play store',
-                link: 'https://apkpure.com/sleepy-phone-addiction-controller/p32929.lazyphone'
+            },
+            {
+                title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮ - (Discontinued)',
+                logo: 'https://lh3.googleusercontent.com/zuluY4xOXx7PIMCvul4fowmOvMlc-3wsHwxGAASo3qZQ-9byd-uJWZ9kzUgclD4Nhrg=s180',
+                desc: 'FIFA Worldcup 2018 All In One ',
             },
             // {
             //     title: 'Best CGPA Calculator',
@@ -294,31 +289,31 @@ export const projects = [
             //     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5icmlra2hvX2ljb25fMTU3MDEyMTU0Ml8wODA/icon.png?fakeurl=1',
             //     desc: 'Learn about trees in your fingertips',
             //     link: 'https://apkpure.com/p/org.richit.brikkho'
+            // // },
+            // {
+            //     title: 'IQQuiz',
+            //     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5pcXF1aXphcHBfaWNvbl8xNTcxMDE0NzcxXzA2Mg/icon.png?fakeurl=1',
+            //     desc: 'A simple IQ game',
+            //     link: 'https://apkpure.com/p/org.richit.iqquizapp'
             // },
-            {
-                title: 'IQQuiz',
-                logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5pcXF1aXphcHBfaWNvbl8xNTcxMDE0NzcxXzA2Mg/icon.png?fakeurl=1',
-                desc: 'A simple IQ game',
-                link: 'https://apkpure.com/p/org.richit.iqquizapp'
-            },
-            {
-                title: 'BirdsLover',
-                logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5iaXJkc2xvdmVyX2ljb25fMTU3MjAwNDIxNl8wOTE/icon.png?fakeurl=1',
-                desc: 'Learn about birds in your fingertips',
-                link: 'https://apkpure.com/birdslover/org.richit.birdslover'
-            },
-            {
-                title: 'Animal Lover',
-                logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5hbmltYWxfaWNvbl8xNTc3MjkyMzIzXzAyMw/icon.png?fakeurl=1',
-                desc: 'Learn about birds in your fingertips',
-                link: 'https://apkpure.com/p/org.richit.animal'
-            },
-            {
-                title: 'Jibanananda Recitation (Abritti)',
-                logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5qaWJvbmFuZG9rb2JpdGFzb21vZ3JvX2ljb25fMTU3MDEwNDExNF8wNDc/icon.png?fakeurl=1',
-                desc: '50+ poems of Jibanananda Das with audio recitation',
-                link: 'https://apkpure.com/jibanananda-recitation-abritti/org.richit.jibonandokobitasomogro'
-            },
+            // {
+            //     title: 'BirdsLover',
+            //     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5iaXJkc2xvdmVyX2ljb25fMTU3MjAwNDIxNl8wOTE/icon.png?fakeurl=1',
+            //     desc: 'Learn about birds in your fingertips',
+            //     link: 'https://apkpure.com/birdslover/org.richit.birdslover'
+            // },
+            // {
+            //     title: 'Animal Lover',
+            //     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5hbmltYWxfaWNvbl8xNTc3MjkyMzIzXzAyMw/icon.png?fakeurl=1',
+            //     desc: 'Learn about birds in your fingertips',
+            //     link: 'https://apkpure.com/p/org.richit.animal'
+            // },
+            // {
+            //     title: 'Jibanananda Recitation (Abritti)',
+            //     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5qaWJvbmFuZG9rb2JpdGFzb21vZ3JvX2ljb25fMTU3MDEwNDExNF8wNDc/icon.png?fakeurl=1',
+            //     desc: '50+ poems of Jibanananda Das with audio recitation',
+            //     link: 'https://apkpure.com/jibanananda-recitation-abritti/org.richit.jibonandokobitasomogro'
+            // },
             // {
             //     title: 'MyEyes',
             //     logo: 'https://image.flaticon.com/icons/svg/1614/1614505.svg',
