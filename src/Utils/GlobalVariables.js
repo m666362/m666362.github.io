@@ -252,7 +252,7 @@ export const projects = [
             {
                 title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮ - (Discontinued)',
                 logo: 'https://lh3.googleusercontent.com/zuluY4xOXx7PIMCvul4fowmOvMlc-3wsHwxGAASo3qZQ-9byd-uJWZ9kzUgclD4Nhrg=s180',
-                desc: 'FIFA Worldcup 2018 All In One ',
+                desc: 'FIFA Worldcup 2018 All In One.',
             },
             // {
             //     title: 'Best CGPA Calculator',
@@ -360,7 +360,7 @@ export const projects = [
             {
                 title: 'Passenger Assistance in Bangladesh Railway',
                 logo: 'https://i.ibb.co/sFYYfLz/rail.png',
-                desc: 'Provides platform number , bogie location and train location through gsm technology.',
+                desc: 'Provides platform number , bogie sequence and train location through gsm technology.',
             },
             {
                 title: 'JK Flip Flop Clock',
