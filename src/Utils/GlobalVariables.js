@@ -41,16 +41,12 @@ export const skills = [
                 logo: 'https://www.vectorlogo.zone/logos/java/java-icon.svg',
             },
             {
-                title: 'Python',
-                logo: 'https://www.vectorlogo.zone/logos/python/python-icon.svg',
-            },
-            {
                 title: 'JavaScript',
                 logo: 'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg',
             },
             {
-                title: 'Rust',
-                logo: 'https://www.rust-lang.org/static/images/rust-logo-blk.svg',
+                title: 'MATLAB',
+                logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/667px-Matlab_Logo.png',
             },
             {
                 title: 'SQL',
@@ -65,12 +61,8 @@ export const skills = [
                 logo: 'https://seeklogo.com/images/C/css3-logo-F1923C8D0E-seeklogo.com.png',
             },
             {
-                title: 'UNIX',
-                logo: 'https://www.vectorlogo.zone/logos/gnu/gnu-icon.svg',
-            },
-            {
-                title: 'VBScript',
-                logo: 'https://banner2.kisspng.com/20180409/cxe/kisspng-vbscript-scripting-language-visual-basic-microsoft-analyst-5acc162b6da676.9666584115233244594491.jpg',
+                title: 'Assembly',
+                logo: 'data:image/png;base64,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',
             },
             {
                 title: 'Batch',
@@ -81,47 +73,9 @@ export const skills = [
                 logo: 'https://docs.microsoft.com/en-us/powershell/media/index/powershell_128.svg',
             },
             {
-                title: 'TypeScript',
-                logo: 'https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg',
-            },
-            {
-                title: 'PHP',
-                logo: 'https://www.vectorlogo.zone/logos/php/php-icon.svg',
-            },
-            {
-                title: 'Ruby',
-                logo: 'https://www.vectorlogo.zone/logos/ruby-lang/ruby-lang-icon.svg',
-            },
-            {
-                title: 'Kotlin',
-                logo: 'https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg',
-            },
-            {
-                title: 'Dart',
-                logo: 'https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg',
-            },
-            {
-                title: 'Pug',
-                logo: 'https://www.vectorlogo.zone/logos/pugjs/pugjs-icon.svg'
-            },
-            {
                 title: 'XML',
                 logo: 'https://www.vectorlogo.zone/logos/w3c_xml/w3c_xml-icon.svg'
             },
-            {
-                title: 'C#',
-                logo: "https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png"
-            },
-            {
-                title: 'QML',
-                logo: "https://s3-eu-west-1.amazonaws.com/qt-showroom/uploads/2014/08/qml_creator_icon512-300x300.png"
-            },
-            {
-                title: 'R',
-                logo: "https://www.r-project.org/Rlogo.png"
-            },
-
-
         ]
     },
     {
@@ -144,18 +98,6 @@ export const skills = [
                 logo: 'https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg'
             },
             {
-                title: 'React Native',
-                logo: 'https://images.codedaily.io/icons/react.svg'
-            },
-            {
-                title: 'ElectronJS',
-                logo: 'https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg'
-            },
-            {
-                title: 'Angular2+',
-                logo: 'https://angular.io/assets/images/logos/angular/angular.svg'
-            },
-            {
                 title: 'MongoDB',
                 logo: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg'
             },
@@ -168,88 +110,12 @@ export const skills = [
                 logo: 'https://oauth.net/images/oauth-logo-square.png'
             },
             {
-                title: 'Gatsby',
-                logo: 'https://www.gatsbyjs.org/static/gatsby-icon-4a9773549091c227cd2eb82ccd9c5e3a.png'
-            },
-            {
-                title: 'NextJS',
-                logo: 'https://foxundermoon.gallerycdn.vsassets.io/extensions/foxundermoon/next-js/0.0.2/1507561739278/Microsoft.VisualStudio.Services.Icons.Default'
-            },
-            {
-                title: 'OpenCV',
-                logo: 'https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg'
-            },
-            {
-                title: 'Parse',
-                logo: 'https://www.vectorlogo.zone/logos/parseplatform/parseplatform-icon.svg'
-            },
-            {
                 title: 'Firebase',
                 logo: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg'
             },
             {
-                title: 'Flutter',
-                logo: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg'
-            },
-            {
-                title: 'Tensorflow',
-                logo: 'https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg'
-            },
-            {
-                title: 'Unity',
-                logo: 'https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg'
-            },
-            {
-                title: 'BS4',
-                logo: 'https://funthon.files.wordpress.com/2017/05/bs.png?w=772'
-            },
-            {
-                title: 'Numpy',
-                logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/NumPy_logo.svg/1200px-NumPy_logo.svg.png'
-            },
-            {
-                title: 'Matplotlib',
-                logo: 'https://matplotlib.org/_static/logo2_compressed.svg'
-            },
-            {
-                title: 'Back4App',
-                logo: 'https://opencollective-production.s3-us-west-1.amazonaws.com/ff3687f0-d07e-11e7-a850-7b3f8e88e105.png'
-            },
-            {
-                title: 'WebExtension APIs',
-                logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJZSwdd8p6dxuCSAFToE-wLoGNi47Mak6-KPixx7fIg654rZoR'
-            },
-            {
-                title: 'QT',
-                logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Qt_logo_2016.svg/1200px-Qt_logo_2016.svg.png'
-            },
-            {
-                title: 'Chromely',
-                logo: 'https://raw.githubusercontent.com/chromelyapps/Chromely/master/nugets/chromely.ico'
-            },
-            {
-                title: 'NW.js',
-                logo: 'https://nwjs.io/img/logo.png'
-            },
-            {
-                title: 'Neutralinojs',
-                logo: 'https://neutralino.js.org/assets/img/logo'
-            },
-            {
-                title: 'Proton Native',
-                logo: 'https://img.stackshare.io/service/8517/eE3nAsW.png'
-            },
-            {
-                title: 'Tauri',
-                logo: 'https://user-images.githubusercontent.com/2774845/75100245-79e51600-55cb-11ea-8ea3-2b12063e41fa.png'
-            },
-            {
                 title: 'Material-UI',
                 logo: 'https://camo.githubusercontent.com/cf05625198fe7b6ad8a302d1ce16bc99b93ec2ac/68747470733a2f2f6d6174657269616c2d75692e636f6d2f7374617469632f6c6f676f2e737667'
-            },
-            {
-                title: 'Node GUI',
-                logo: 'https://raw.githubusercontent.com/nodegui/nodegui/master/extras/logo/nodegui.png'
             },
             {
                 title: 'GSON',
@@ -259,31 +125,6 @@ export const skills = [
                 title: 'Babel',
                 logo: 'https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg'
             },
-            {
-                title: 'Bootstrap',
-                logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png'
-            },
-            {
-                title: 'Adonis JS',
-                logo: 'https://www.vectorlogo.zone/logos/adonisjs/adonisjs-icon.svg'
-            },
-            {
-                title: 'VueJS',
-                logo: 'https://vuejs.org/images/logo.png'
-            },
-            {
-                title: 'Pandas',
-                logo: 'https://pandas.pydata.org/static/img/pandas.svg'
-            },
-            {
-                title: 'Matplotlib',
-                logo: 'https://matplotlib.org/3.1.0/_images/sphx_glr_logos2_001.png'
-            },
-            {
-                title: 'Ionic',
-                logo: 'https://ionicframework.com/blog/wp-content/uploads/2015/05/cropped-logo.png'
-            },
-
         ]
     },
     {
@@ -305,12 +146,6 @@ export const skills = [
                 logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097023.svg',
             },
             {
-                title: 'Arabic',
-                desc: "Mediocre",
-                logo: 'https://www.flaticon.com/premium-icon/icons/svg/3096/3096991.svg',
-            },
-
-            {
                 title: 'Hindi',
                 desc: "Conversational",
                 logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097042.svg',
@@ -321,14 +156,9 @@ export const skills = [
                 logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097115.svg',
             },
             {
-                title: 'Korean',
+                title: 'Arabic',
                 desc: "Beginner",
-                logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097055.svg',
-            },
-            {
-                title: 'Mandarin',
-                desc: "Beginner",
-                logo: 'https://www.flaticon.com/premium-icon/icons/svg/3097/3097067.svg',
+                logo: 'https://www.flaticon.com/premium-icon/icons/svg/3096/3096991.svg',
             },
         ]
     },
@@ -352,6 +182,10 @@ export const skills = [
                 logo: 'https://www.vectorlogo.zone/logos/arduino/arduino-icon.svg'
             },
             {
+                title: 'Atmel',
+                logo: 'https://download.logo.wine/logo/Atmel/Atmel-Logo.wine.png'
+            },
+            {
                 title: 'IntelliJ IDEA',
                 logo: 'https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png'
             },
@@ -368,36 +202,8 @@ export const skills = [
                 logo: 'https://image.flaticon.com/icons/svg/1035/1035688.svg'
             },
             {
-                title: 'Gradle',
-                logo: 'https://www.vectorlogo.zone/logos/gradle/gradle-icon.svg'
-            },
-            {
-                title: 'Apache',
-                logo: 'https://www.vectorlogo.zone/logos/apache/apache-ar21.svg'
-            },
-            {
-                title: 'Asana',
-                logo: 'https://www.vectorlogo.zone/logos/asana/asana-ar21.svg'
-            },
-            {
-                title: 'AWS',
-                logo: 'https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg'
-            },
-            {
-                title: 'Expo',
-                logo: 'https://www.vectorlogo.zone/logos/expoio/expoio-icon.svg'
-            },
-            {
-                title: 'Figma',
-                logo: 'https://www.vectorlogo.zone/logos/figma/figma-icon.svg'
-            },
-            {
                 title: 'Heroku',
                 logo: 'https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg'
-            },
-            {
-                title: 'NgInx',
-                logo: 'https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg'
             },
             {
                 title: 'Yarn',
@@ -412,34 +218,9 @@ export const skills = [
                 logo: 'https://www.vectorlogo.zone/logos/google/google-icon.svg'
             },
             {
-                title: 'Deployd',
-                logo: 'https://deployd.com/img/bucket/modular.png'
-            },
-            {
                 title: 'npm',
                 logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg'
             },
-            {
-                title: 'Greasemonkey',
-                logo: 'https://addons.cdn.mozilla.net/user-media/addon_icons/0/748-64.png?modified=1531822767'
-            },
-            {
-                title: 'Tampermonkey',
-                logo: 'https://addons.cdn.mozilla.net/user-media/addon_icons/683/683490-64.png?modified=1565719090'
-            },
-            {
-                title: 'Linux',
-                logo: 'https://www.freepnglogos.com/uploads/linux-png/file-icons-flat-linux-svg-wikimedia-commons-6.png'
-            },
-            {
-                title: 'Adobe Photoshop',
-                logo: 'https://www.adobe.com/content/dam/cc/icons/photoshop-mobile.svg'
-            },
-            {
-                title: 'Netify',
-                logo: 'https://www.vectorlogo.zone/logos/netlify/netlify-icon.svg'
-            },
-
         ]
     },
 ]
@@ -449,65 +230,71 @@ export const projects = [
         text: "Android Apps",
         arr: [
             {
-                title: 'Desplash',
-                logo: 'https://lh3.googleusercontent.com/ILrto9KguXlr-clbhYKUonpnHszgNp_N5Qvc8_u9QaM71oaqNKcYql2sV3sqZ7nqzsc=s180',
-                desc: 'Automatic Free High Quality Wallpapers powered by Unsplash.com',
-                link: 'https://apkpure.com/desplash-beautiful-automatic-unsplash-wallpapers/p32929.desplash'
-            },
-            {
-                title: 'The Great Postman',
-                logo: 'https://lh3.googleusercontent.com/ni-lk3b2nTMZyC7r1wYBW6cm9eYqGAN-t6fXV-kD0lSyw1lO3kenC1We71fZjSryvFII=s180',
-                desc: 'Powerful, Lightweight REST API client for Android',
-                link: 'https://apkpure.com/rest-api-client-the-great-postman/p32929.greatpostman'
-            },
-            {
-                title: 'Sleepy - Addiction Remover',
-                logo: 'https://lh3.googleusercontent.com/vvp6Ev33xPerWBBOtIRyAHl7k5c4wQ72hGwG3EU4JC-BTjfvb5DSJDeMABaRg0fy_KI=s180',
-                desc: 'The one and only EFFECTIVE addiction remover on Google Play store',
-                link: 'https://apkpure.com/sleepy-phone-addiction-controller/p32929.lazyphone'
-            },
-            {
-                title: 'Best CGPA Calculator',
-                logo: 'https://lh3.googleusercontent.com/trpGkuBRWnBXNDNyts-7ePwmPtTLQ_8pKoMWi-6Iy8eBomjZ8XrVi4zQcEWrmoGLKA=s180',
-                desc: 'A simple yet effective CGPA Calculator for University students',
-                link: 'https://apkpure.com/best-cgpa-calculator/p32929.cgpa_calculator2'
-            },
-            {
-                title: 'Buy Sell BD',
-                logo: 'https://image.winudf.com/v2/image1/cDMyOTI5LmJ1eXNlbGxiZF9pY29uXzE1NTkyOTQ5NjVfMDYz/icon.png?w=170&fakeurl=1',
-                desc: 'A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods',
-                link: 'https://apkpure.com/p/p32929.buysellbd'
-            },
-            {
-                title: 'ExIn',
-                logo: 'https://lh3.googleusercontent.com/X8mRJd7JajvDXoW7NaluKt2IvC3osH6czkTPoWeSYJ96U2LWLKT4xiFgvNouwf-UvEk=s180',
-                desc: 'A Simple & user friendly income-expense tracker ',
-                link: 'https://play.google.com/store/apps/details?id=p32929.exin'
-            },
-            {
                 title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮ - (Discontinued)',
                 logo: 'https://lh3.googleusercontent.com/zuluY4xOXx7PIMCvul4fowmOvMlc-3wsHwxGAASo3qZQ-9byd-uJWZ9kzUgclD4Nhrg=s180',
                 desc: 'FIFA Worldcup 2018 All In One ',
                 link: 'https://apkpure.com/%E0%A6%AB%E0%A6%BF%E0%A6%AB%E0%A6%BE-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%A1%E0%A6%95%E0%A6%BE%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%AE-live-tv-scores-more/p32929.worldcup2018'
             },
             {
-                title: 'I am free',
-                logo: 'https://lh3.googleusercontent.com/LIgX0ABT8z3MFILXFfrXK7vNO9j0hTxJ2aSdGwdcsdJUtViMWAsKXEiG65g94dV_i7JE=s180',
-                desc: 'বেকার মুক্ত বাংলাদেশ গড়ার লক্ষ্যে - I am FREE',
-                link: 'https://apkpure.com/i-am-free/p32929.imfree'
+                title: 'Food Store',
+                logo: 'https://thumbs.dreamstime.com/b/vegetables-shopping-cart-trolley-grocery-logo-icon-design-vector-171090350.jpg',
+                desc: 'A better & more reliable alternative of traditional foor store.',
+                link: 'https://apkpure.com/sleepy-phone-addiction-controller/p32929.lazyphone'
             },
             {
-                title: 'Awesome NCTB',
-                logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5uY3RiX2ljb25fMTU3NjU3MjcwNF8wMjI/icon.png?fakeurl=1',
-                desc: 'Download NCTB Books easily and Free',
-                link: 'https://apkpure.com/awesome-nctb/org.richit.nctb'
+                title: 'Health Benefit of Sunnah',
+                logo: 'https://lh3.googleusercontent.com/ILrto9KguXlr-clbhYKUonpnHszgNp_N5Qvc8_u9QaM71oaqNKcYql2sV3sqZ7nqzsc=s180',
+                desc: 'Details description of Sunnah way of life.',
+                link: 'https://apkpure.com/desplash-beautiful-automatic-unsplash-wallpapers/p32929.desplash'
             },
             {
-                title: 'বৃক্ষ ( Brikkho )',
-                logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5icmlra2hvX2ljb25fMTU3MDEyMTU0Ml8wODA/icon.png?fakeurl=1',
-                desc: 'Learn about trees in your fingertips',
-                link: 'https://apkpure.com/p/org.richit.brikkho'
+                title: 'FireBase Chat',
+                logo: 'https://image.freepik.com/free-vector/chat-logo-design_93835-108.jpg',
+                desc: 'Powerful, Lightweight firebase chat app.',
+                link: 'https://apkpure.com/rest-api-client-the-great-postman/p32929.greatpostman'
             },
+            {
+                title: 'Calculator',
+                logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7j6UsUyaEGat3jSDTWgjBuda-di6rc790Ng&usqp=CAU',
+                desc: 'The one and only EFFECTIVE addiction remover on Google Play store',
+                link: 'https://apkpure.com/sleepy-phone-addiction-controller/p32929.lazyphone'
+            },
+            // {
+            //     title: 'Best CGPA Calculator',
+            //     logo: 'https://lh3.googleusercontent.com/trpGkuBRWnBXNDNyts-7ePwmPtTLQ_8pKoMWi-6Iy8eBomjZ8XrVi4zQcEWrmoGLKA=s180',
+            //     desc: 'A simple Android calculator',
+            //     link: 'https://apkpure.com/best-cgpa-calculator/p32929.cgpa_calculator2'
+            // },
+            // {
+            //     title: 'Buy Sell BD',
+            //     logo: 'https://image.winudf.com/v2/image1/cDMyOTI5LmJ1eXNlbGxiZF9pY29uXzE1NTkyOTQ5NjVfMDYz/icon.png?w=170&fakeurl=1',
+            //     desc: 'A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods',
+            //     link: 'https://apkpure.com/p/p32929.buysellbd'
+            // },
+            // {
+            //     title: 'ExIn',
+            //     logo: 'https://lh3.googleusercontent.com/X8mRJd7JajvDXoW7NaluKt2IvC3osH6czkTPoWeSYJ96U2LWLKT4xiFgvNouwf-UvEk=s180',
+            //     desc: 'A Simple & user friendly income-expense tracker ',
+            //     link: 'https://play.google.com/store/apps/details?id=p32929.exin'
+            // },
+            // {
+            //     title: 'I am free',
+            //     logo: 'https://lh3.googleusercontent.com/LIgX0ABT8z3MFILXFfrXK7vNO9j0hTxJ2aSdGwdcsdJUtViMWAsKXEiG65g94dV_i7JE=s180',
+            //     desc: 'বেকার মুক্ত বাংলাদেশ গড়ার লক্ষ্যে - I am FREE',
+            //     link: 'https://apkpure.com/i-am-free/p32929.imfree'
+            // },
+            // {
+            //     title: 'Awesome NCTB',
+            //     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5uY3RiX2ljb25fMTU3NjU3MjcwNF8wMjI/icon.png?fakeurl=1',
+            //     desc: 'Download NCTB Books easily and Free',
+            //     link: 'https://apkpure.com/awesome-nctb/org.richit.nctb'
+            // },
+            // {
+            //     title: 'বৃক্ষ ( Brikkho )',
+            //     logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5icmlra2hvX2ljb25fMTU3MDEyMTU0Ml8wODA/icon.png?fakeurl=1',
+            //     desc: 'Learn about trees in your fingertips',
+            //     link: 'https://apkpure.com/p/org.richit.brikkho'
+            // },
             {
                 title: 'IQQuiz',
                 logo: 'https://image.winudf.com/v2/image1/b3JnLnJpY2hpdC5pcXF1aXphcHBfaWNvbl8xNTcxMDE0NzcxXzA2Mg/icon.png?fakeurl=1',
@@ -532,12 +319,12 @@ export const projects = [
                 desc: '50+ poems of Jibanananda Das with audio recitation',
                 link: 'https://apkpure.com/jibanananda-recitation-abritti/org.richit.jibonandokobitasomogro'
             },
-            {
-                title: 'MyEyes',
-                logo: 'https://image.flaticon.com/icons/svg/1614/1614505.svg',
-                desc: 'Indoor Navigation App for Blind People',
-                link: ''
-            },
+            // {
+            //     title: 'MyEyes',
+            //     logo: 'https://image.flaticon.com/icons/svg/1614/1614505.svg',
+            //     desc: 'Indoor Navigation App for Blind People',
+            //     link: ''
+            // },
             {
                 title: 'BirthdayBot',
                 logo: 'https://image.flaticon.com/icons/svg/415/415587.svg',
@@ -550,333 +337,343 @@ export const projects = [
         text: "WebApps",
         arr: [
             {
-                title: 'SendMoney2Me',
+                title: 'Multi-Poster ( Ongoing )',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
-                desc: 'Ways to send me money directly',
-                link: 'https://p32929.github.io/SendMoney2Me/'
+                desc: 'Post status, image and video on facebook, twitter and youtube by one click.',
             },
             {
-                title: 'My App (V2)',
+                title: 'React Calculator',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
-                desc: 'V2 of my App - Created using ReactJS',
-                link: 'https://p32929.github.io'
+                desc: 'Simple React Calculator.',
             },
             {
-                title: 'Sha1ToMd5',
+                title: 'React Todo App',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
-                desc: 'A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work.',
-                link: 'https://p32929.github.io/Sha1ToMd5'
-            },
-            {
-                title: 'BadgesGenerator',
-                logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
-                desc: 'Badge generator for your github readme.',
-                link: 'https://p32929.github.io/Badges/'
-            },
-            {
-                title: 'My App (V1)',
-                logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
-                desc: 'Created using ReactJS',
-                link: 'https://p32929.github.io/Portfolio'
+                desc: 'Organize your task.',
             },
             {
                 title: 'IndecisionApp',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
-                desc: 'My first ReactJS app',
-                link: 'https://p32929.github.io/IndecisionApp'
+                desc: 'My first ReactJS app.',
             },
 
         ]
     },
     {
-        text: "Android Libraries",
+        text: "Electronic Project",
         arr: [
             {
-                title: 'AndroidEasySQL-Library',
-                logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                desc: 'An Easier & Lazier approach to SQL database for Android',
-                link: 'https://github.com/p32929/AndroidEasySQL-Library'
+                title: 'Passenger Assistance in Bangladesh Railway',
+                logo: 'https://i.ibb.co/sFYYfLz/rail.png',
+                desc: 'Provides platform number , bogie location and train location through gsm technology.',
             },
             {
-                title: 'FayazPermissions',
-                logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                desc: 'An Easier & Lazier approach to getting runtime permission in Android ',
-                link: 'https://github.com/p32929/FayazPermissions'
+                title: 'JK Flip Flop Clock',
+                logo: 'https://st2.depositphotos.com/6831718/10871/v/950/depositphotos_108712212-stock-illustration-clock-icon-clock-symbol-clock.jpg',
+                desc: 'Simple clock using JK Flip Flop.',
             },
             {
-                title: 'AndroidAppLockscreen',
-                logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                desc: 'An Easier & Lazier approach to getting runtime permission in Android ',
-                link: 'https://github.com/p32929/AndroidAppLockscreen'
+                title: 'Anti-theft System',
+                logo: 'https://www.clipartmax.com/png/middle/243-2432706_security-data-protection-anti-theft-lock-logo.png',
+                desc: 'Electronics security based device to protect your valuabe things.',
             },
             {
-                title: 'ManufacturerBatteryOptimization',
-                logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                desc: 'Simple helper class for Android Battery Optimization ignoring in some devices',
-                link: 'https://gist.github.com/p32929/41e7af650f6a2c11e9306ab600fb9b03'
-            },
-            {
-                title: 'MyHouseAdsAndroid',
-                logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                desc: 'A library for cross promoting own apps within own apps - for Android',
-                link: 'https://github.com/p32929/MyHouseAdsAndroid'
-            },
-            {
-                title: 'HouseAds2',
-                logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                desc: 'A library ( V2 ) for cross promoting own apps within own apps - for Android',
-                link: 'https://github.com/p32929/HouseAds2'
-            },
-            {
-                title: 'AndroidAppUpdater',
-                logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                desc: 'A simple, Lightweight App Updater Library for Android',
-                link: 'https://github.com/p32929/AndroidAppUpdater'
-            },
-            {
-                title: 'OfficeAbout',
-                logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                desc: 'A simple about screen library for Android for a Team of people',
-                link: 'https://github.com/p32929/OfficeAbout'
-            },
-            {
-                title: 'JsonViewerAndroid',
-                logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                desc: 'A simple JSON Viewer for Android',
-                link: 'https://github.com/p32929/JsonViewerAndroid'
-            },
-            {
-                title: 'Android-Receivers-Library',
-                logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
-                desc: 'A library for simpler BroadcastReceiver implementations',
-                link: 'https://github.com/p32929/Android-Receivers-Library'
+                title: 'Simple Power Bank',
+                logo: 'https://previews.123rf.com/images/urfandadashov/urfandadashov1809/urfandadashov180900149/109060416-powerbank-vector-icon-isolated-on-transparent-background-powerbank-logo-concept.jpg',
+                desc: 'My first electronics project using several electronic devices which works like power bank.',
             },
 
         ]
     },
-    {
-        text: "Desktop App/Scripts",
-        arr: [
-            {
-                title: 'PotatoTimer',
-                logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
-                desc: 'A pomotodo app that forces you to take a break - created using ElectronJS',
-                link: 'https://github.com/p32929/Electron-Pomotodo'
-            },
-            {
-                title: 'Shortcut-Virus-Remover',
-                logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
-                desc: 'Shortcut virus remover app for Windows',
-                link: 'https://github.com/p32929/Shortcut-Virus-Remover'
-            },
-            {
-                title: 'Linux_Screen_Dimmer',
-                logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
-                desc: 'A simple screen dimming utility for linux',
-                link: 'https://github.com/p32929/Linux_Screen_Dimmer'
-            },
-            {
-                title: 'MoodyLauncher',
-                logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
-                desc: 'A simple App Launcher Script that runs a list of apps depending on the users mood',
-                link: 'https://github.com/p32929/MoodyLauncher'
-            },
-        ]
-    },
-    {
-        text: "NDAs",
-        arr: [
-            {
-                title: 'Shajao',
-                logo: giftIcon,
-                desc: '---',
-                link: 'about:blank'
-            },
-            {
-                title: 'Thamao',
-                logo: giftIcon,
-                desc: '---',
-                link: 'about:blank'
-            },
-            {
-                title: 'GeenPunt',
-                logo: giftIcon,
-                desc: '---',
-                link: 'about:blank'
-            },
-            {
-                title: 'AdsHacker',
-                logo: giftIcon,
-                desc: '---',
-                link: 'about:blank'
-            },
-            {
-                title: 'Fast English Academy',
-                logo: giftIcon,
-                desc: '---',
-                link: 'about:blank'
-            },
-            {
-                title: 'Konika',
-                logo: giftIcon,
-                desc: '---',
-                link: 'about:blank'
-            },
-            {
-                title: 'GiftApps',
-                logo: giftIcon,
-                desc: '---',
-                link: 'about:blank'
-            },
-            {
-                title: 'NumberredPaste',
-                logo: giftIcon,
-                desc: '---',
-                link: 'about:blank'
-            },
-            {
-                title: 'ClockedAdmin',
-                logo: giftIcon,
-                desc: '---',
-                link: 'about:blank'
-            },
-            {
-                title: 'And More...',
-                logo: giftIcon,
-                desc: '---',
-                link: 'about:blank'
-            }
-        ]
-    },
-    {
-        text: "Flutter Libraries",
-        arr: [
-            {
-                title: 'EasiestDB',
-                logo: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg',
-                desc: 'The Easiest and the Laziest approach to Flutter SQL Database.',
-                link: 'https://pub.dev/packages/easiestdb'
-            },
-        ]
-    },
-    {
-        text: "Boilerplates",
-        arr: [
-            {
-                title: 'ReactHtmlBoilerplate',
-                logo: giftIcon,
-                desc: 'A boilerplate for normal ReactJS and HTML',
-                link: 'https://github.com/p32929/ReactHtmlBoilerplate'
-            },
-            {
-                title: 'electron-cra-boilerplate',
-                logo: giftIcon,
-                desc: 'A boilerplate for Electron + Create React App',
-                link: 'https://github.com/p32929/electron-cra-boilerplate'
-            },
-            {
-                title: 'NodeJS_Express_MongoDB_OAuth2_Boilerplate',
-                logo: giftIcon,
-                desc: 'A boilerplate for NodeJS, Express, MongoDB, OAuth2',
-                link: 'https://github.com/p32929/NodeJS_Express_MongoDB_OAuth2_Boilerplate'
-            },
-            {
-                title: 'React-Materialui-Boilerplate',
-                logo: giftIcon,
-                desc: 'A boilerplate for ReactJS + materialUI',
-                link: 'https://github.com/p32929/React-Materialui-Boilerplate'
-            },
-            {
-                title: 'Reactron - P32929',
-                logo: giftIcon,
-                desc: 'A tiny Electron + React + React Router + Material UI + Overmind boilerplate',
-                link: 'https://github.com/p32929/React-Materialui-Boilerplate'
-            },
-        ]
-    },
-    {
-        text: "Others",
-        arr: [
-            {
-                title: 'CGPA_Calculator',
-                logo: giftIcon,
-                desc: 'CGPA Calculator made using C',
-                link: 'https://github.com/p32929/CGPA_Calculator'
-            },
-            {
-                title: 'PersonalDiary',
-                logo: giftIcon,
-                desc: 'A personal diary writer created using C',
-                link: 'https://github.com/p32929/PersonalDiary'
-            },
-            {
-                title: 'PaGeHe',
-                logo: giftIcon,
-                desc: 'Password generators created using C++',
-                link: 'https://github.com/p32929/PaGeHe'
-            },
-            {
-                title: 'MathBlitz',
-                logo: giftIcon,
-                desc: 'Simple math game created using C',
-                link: 'https://github.com/p32929/MathBlitz'
-            },
-            {
-                title: 'PaGeHa',
-                logo: giftIcon,
-                desc: 'Password generator created using C',
-                link: 'https://github.com/p32929/PaGeHa'
-            },
-            {
-                title: 'TicTacToe',
-                logo: giftIcon,
-                desc: 'A TicTacToe game made using C ',
-                link: 'https://github.com/p32929/TicTacToe'
-            },
-            {
-                title: 'Server_up_down_checker_and_notifier',
-                logo: giftIcon,
-                desc: 'Server up-down checker created using python',
-                link: 'https://github.com/p32929/MyPython3Scripts/blob/master/Server_up_down_checker_and_notifier.py'
-            },
-            {
-                title: '.gitignore',
-                logo: giftIcon,
-                desc: 'A collection of gitignore files that I use',
-                link: 'https://github.com/p32929/.gitignore'
-            },
-            {
-                title: 'flutter_state_management_test',
-                logo: giftIcon,
-                desc: 'A state management demo for Flutter',
-                link: 'https://github.com/p32929/flutter_state_management_test'
-            },
-            {
-                title: 'ReduxCounter',
-                logo: giftIcon,
-                desc: 'A demo for ReactJS and Redux',
-                link: 'https://github.com/p32929/ReduxCounter'
-            },
-            {
-                title: 'ReduxCounter',
-                logo: giftIcon,
-                desc: 'A demo for ReactJS state management libraries',
-                link: 'https://github.com/p32929/react-state-management'
-            },
-            {
-                title: 'YandexDirectLinkGenerator',
-                logo: giftIcon,
-                desc: 'Yandex Disk Direct Link Generator - BATCH',
-                link: 'https://github.com/p32929/YandexDirectLinkGenerator'
-            },
-            {
-                title: 'UVA_Solutions',
-                logo: giftIcon,
-                desc: 'Some UVA solutions',
-                link: 'https://github.com/p32929/UVA_Solutions'
-            },
-        ]
-    }
+    // {
+    //     text: "Android Libraries",
+    //     arr: [
+    //         {
+    //             title: 'AndroidEasySQL-Library',
+    //             logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+    //             desc: 'An Easier & Lazier approach to SQL database for Android',
+    //             link: 'https://github.com/p32929/AndroidEasySQL-Library'
+    //         },
+    //         {
+    //             title: 'FayazPermissions',
+    //             logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+    //             desc: 'An Easier & Lazier approach to getting runtime permission in Android ',
+    //             link: 'https://github.com/p32929/FayazPermissions'
+    //         },
+    //         {
+    //             title: 'AndroidAppLockscreen',
+    //             logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+    //             desc: 'An Easier & Lazier approach to getting runtime permission in Android ',
+    //             link: 'https://github.com/p32929/AndroidAppLockscreen'
+    //         },
+    //         {
+    //             title: 'ManufacturerBatteryOptimization',
+    //             logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+    //             desc: 'Simple helper class for Android Battery Optimization ignoring in some devices',
+    //             link: 'https://gist.github.com/p32929/41e7af650f6a2c11e9306ab600fb9b03'
+    //         },
+    //         {
+    //             title: 'MyHouseAdsAndroid',
+    //             logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+    //             desc: 'A library for cross promoting own apps within own apps - for Android',
+    //             link: 'https://github.com/p32929/MyHouseAdsAndroid'
+    //         },
+    //         {
+    //             title: 'HouseAds2',
+    //             logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+    //             desc: 'A library ( V2 ) for cross promoting own apps within own apps - for Android',
+    //             link: 'https://github.com/p32929/HouseAds2'
+    //         },
+    //         {
+    //             title: 'AndroidAppUpdater',
+    //             logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+    //             desc: 'A simple, Lightweight App Updater Library for Android',
+    //             link: 'https://github.com/p32929/AndroidAppUpdater'
+    //         },
+    //         {
+    //             title: 'OfficeAbout',
+    //             logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+    //             desc: 'A simple about screen library for Android for a Team of people',
+    //             link: 'https://github.com/p32929/OfficeAbout'
+    //         },
+    //         {
+    //             title: 'JsonViewerAndroid',
+    //             logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+    //             desc: 'A simple JSON Viewer for Android',
+    //             link: 'https://github.com/p32929/JsonViewerAndroid'
+    //         },
+    //         {
+    //             title: 'Android-Receivers-Library',
+    //             logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg',
+    //             desc: 'A library for simpler BroadcastReceiver implementations',
+    //             link: 'https://github.com/p32929/Android-Receivers-Library'
+    //         },
+    //
+    //     ]
+    // },
+    // {
+    //     text: "Desktop App/Scripts",
+    //     arr: [
+    //         {
+    //             title: 'PotatoTimer',
+    //             logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
+    //             desc: 'A pomotodo app that forces you to take a break - created using ElectronJS',
+    //             link: 'https://github.com/p32929/Electron-Pomotodo'
+    //         },
+    //         {
+    //             title: 'Shortcut-Virus-Remover',
+    //             logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
+    //             desc: 'Shortcut virus remover app for Windows',
+    //             link: 'https://github.com/p32929/Shortcut-Virus-Remover'
+    //         },
+    //         {
+    //             title: 'Linux_Screen_Dimmer',
+    //             logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
+    //             desc: 'A simple screen dimming utility for linux',
+    //             link: 'https://github.com/p32929/Linux_Screen_Dimmer'
+    //         },
+    //         {
+    //             title: 'MoodyLauncher',
+    //             logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
+    //             desc: 'A simple App Launcher Script that runs a list of apps depending on the users mood',
+    //             link: 'https://github.com/p32929/MoodyLauncher'
+    //         },
+    //     ]
+    // },
+    // {
+    //     text: "NDAs",
+    //     arr: [
+    //         {
+    //             title: 'Shajao',
+    //             logo: giftIcon,
+    //             desc: '---',
+    //             link: 'about:blank'
+    //         },
+    //         {
+    //             title: 'Thamao',
+    //             logo: giftIcon,
+    //             desc: '---',
+    //             link: 'about:blank'
+    //         },
+    //         {
+    //             title: 'GeenPunt',
+    //             logo: giftIcon,
+    //             desc: '---',
+    //             link: 'about:blank'
+    //         },
+    //         {
+    //             title: 'AdsHacker',
+    //             logo: giftIcon,
+    //             desc: '---',
+    //             link: 'about:blank'
+    //         },
+    //         {
+    //             title: 'Fast English Academy',
+    //             logo: giftIcon,
+    //             desc: '---',
+    //             link: 'about:blank'
+    //         },
+    //         {
+    //             title: 'Konika',
+    //             logo: giftIcon,
+    //             desc: '---',
+    //             link: 'about:blank'
+    //         },
+    //         {
+    //             title: 'GiftApps',
+    //             logo: giftIcon,
+    //             desc: '---',
+    //             link: 'about:blank'
+    //         },
+    //         {
+    //             title: 'NumberredPaste',
+    //             logo: giftIcon,
+    //             desc: '---',
+    //             link: 'about:blank'
+    //         },
+    //         {
+    //             title: 'ClockedAdmin',
+    //             logo: giftIcon,
+    //             desc: '---',
+    //             link: 'about:blank'
+    //         },
+    //         {
+    //             title: 'And More...',
+    //             logo: giftIcon,
+    //             desc: '---',
+    //             link: 'about:blank'
+    //         }
+    //     ]
+    // },
+    // {
+    //     text: "Flutter Libraries",
+    //     arr: [
+    //         {
+    //             title: 'EasiestDB',
+    //             logo: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg',
+    //             desc: 'The Easiest and the Laziest approach to Flutter SQL Database.',
+    //             link: 'https://pub.dev/packages/easiestdb'
+    //         },
+    //     ]
+    // },
+    // {
+    //     text: "Boilerplates",
+    //     arr: [
+    //         {
+    //             title: 'ReactHtmlBoilerplate',
+    //             logo: giftIcon,
+    //             desc: 'A boilerplate for normal ReactJS and HTML',
+    //             link: 'https://github.com/p32929/ReactHtmlBoilerplate'
+    //         },
+    //         {
+    //             title: 'electron-cra-boilerplate',
+    //             logo: giftIcon,
+    //             desc: 'A boilerplate for Electron + Create React App',
+    //             link: 'https://github.com/p32929/electron-cra-boilerplate'
+    //         },
+    //         {
+    //             title: 'NodeJS_Express_MongoDB_OAuth2_Boilerplate',
+    //             logo: giftIcon,
+    //             desc: 'A boilerplate for NodeJS, Express, MongoDB, OAuth2',
+    //             link: 'https://github.com/p32929/NodeJS_Express_MongoDB_OAuth2_Boilerplate'
+    //         },
+    //         {
+    //             title: 'React-Materialui-Boilerplate',
+    //             logo: giftIcon,
+    //             desc: 'A boilerplate for ReactJS + materialUI',
+    //             link: 'https://github.com/p32929/React-Materialui-Boilerplate'
+    //         },
+    //         {
+    //             title: 'Reactron - P32929',
+    //             logo: giftIcon,
+    //             desc: 'A tiny Electron + React + React Router + Material UI + Overmind boilerplate',
+    //             link: 'https://github.com/p32929/React-Materialui-Boilerplate'
+    //         },
+    //     ]
+    // },
+    // {
+    //     text: "Others",
+    //     arr: [
+    //         {
+    //             title: 'CGPA_Calculator',
+    //             logo: giftIcon,
+    //             desc: 'CGPA Calculator made using C',
+    //             link: 'https://github.com/p32929/CGPA_Calculator'
+    //         },
+    //         {
+    //             title: 'PersonalDiary',
+    //             logo: giftIcon,
+    //             desc: 'A personal diary writer created using C',
+    //             link: 'https://github.com/p32929/PersonalDiary'
+    //         },
+    //         {
+    //             title: 'PaGeHe',
+    //             logo: giftIcon,
+    //             desc: 'Password generators created using C++',
+    //             link: 'https://github.com/p32929/PaGeHe'
+    //         },
+    //         {
+    //             title: 'MathBlitz',
+    //             logo: giftIcon,
+    //             desc: 'Simple math game created using C',
+    //             link: 'https://github.com/p32929/MathBlitz'
+    //         },
+    //         {
+    //             title: 'PaGeHa',
+    //             logo: giftIcon,
+    //             desc: 'Password generator created using C',
+    //             link: 'https://github.com/p32929/PaGeHa'
+    //         },
+    //         {
+    //             title: 'TicTacToe',
+    //             logo: giftIcon,
+    //             desc: 'A TicTacToe game made using C ',
+    //             link: 'https://github.com/p32929/TicTacToe'
+    //         },
+    //         {
+    //             title: 'Server_up_down_checker_and_notifier',
+    //             logo: giftIcon,
+    //             desc: 'Server up-down checker created using python',
+    //             link: 'https://github.com/p32929/MyPython3Scripts/blob/master/Server_up_down_checker_and_notifier.py'
+    //         },
+    //         {
+    //             title: '.gitignore',
+    //             logo: giftIcon,
+    //             desc: 'A collection of gitignore files that I use',
+    //             link: 'https://github.com/p32929/.gitignore'
+    //         },
+    //         {
+    //             title: 'flutter_state_management_test',
+    //             logo: giftIcon,
+    //             desc: 'A state management demo for Flutter',
+    //             link: 'https://github.com/p32929/flutter_state_management_test'
+    //         },
+    //         {
+    //             title: 'ReduxCounter',
+    //             logo: giftIcon,
+    //             desc: 'A demo for ReactJS and Redux',
+    //             link: 'https://github.com/p32929/ReduxCounter'
+    //         },
+    //         {
+    //             title: 'ReduxCounter',
+    //             logo: giftIcon,
+    //             desc: 'A demo for ReactJS state management libraries',
+    //             link: 'https://github.com/p32929/react-state-management'
+    //         },
+    //         {
+    //             title: 'YandexDirectLinkGenerator',
+    //             logo: giftIcon,
+    //             desc: 'Yandex Disk Direct Link Generator - BATCH',
+    //             link: 'https://github.com/p32929/YandexDirectLinkGenerator'
+    //         },
+    //         {
+    //             title: 'UVA_Solutions',
+    //             logo: giftIcon,
+    //             desc: 'Some UVA solutions',
+    //             link: 'https://github.com/p32929/UVA_Solutions'
+    //         },
+    //     ]
+    // }
 ]
 
 export const contactInfos = [
@@ -886,24 +683,19 @@ export const contactInfos = [
             {
                 title: 'Skype',
                 logo: 'https://image.flaticon.com/icons/svg/174/174869.svg',
-                desc: 'p32929',
-                link: 'skype:p32929?chat'
+                desc: '8801766324950',
+                link: 'skype:8801766324950?chat'
             },
             {
                 title: 'WhatsApp',
                 logo: 'https://image.flaticon.com/icons/svg/733/733585.svg',
-                link: 'https://api.whatsapp.com/send?phone=8801796306262'
+                link: 'https://api.whatsapp.com/send?phone=8801766324950'
             },
             {
                 title: 'Facebook',
                 logo: 'https://image.flaticon.com/icons/svg/124/124010.svg',
-                link: 'https://www.facebook.com/p32929'
+                link: 'https://www.facebook.com/mdrayhan9464'
             },
-            {
-                title: 'Anywhere on the internet',
-                logo: 'https://www.flaticon.com/svg/static/icons/svg/1034/1034456.svg',
-                link: '@p32929'
-            }
         ]
     },
     {
@@ -912,69 +704,64 @@ export const contactInfos = [
             {
                 title: 'GitHub',
                 logo: 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
-                link: 'https://github.com/p32929/'
+                link: 'https://github.com/m666362/'
             },
             {
-                title: 'Wordpress',
-                logo: 'https://lh3.googleusercontent.com/FKoZImII3S1CKxDwudC2k1EW8NMDi8FyWRk0_AufAQcixOd-kdll5H32L2lKvGIbVWIB',
-                link: 'https://p32929.wordpress.com/'
+                title: 'GitHub',
+                logo: 'https://about.gitlab.com/images/press/logo/jpg/gitlab-icon-rgb.jpg',
+                link: 'https://gitlab.com/m666362'
             },
-            {
-                title: 'YouTube',
-                logo: 'https://lh3.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc',
-                link: 'https://www.youtube.com/channel/UCFucp3uZ96IBYxG8755AniQ'
-            },
-            {
-                title: 'Google Play',
-                logo: 'https://www.vectorlogo.zone/logos/google_play/google_play-icon.svg',
-                link: 'https://play.google.com/store/apps/developer?id=Rich+IT&hl=en'
-            },
-        ]
-    },
-    {
-        text: "Apps I rarely use",
-        arr: [
             {
                 title: 'LinkedIn',
                 logo: 'https://image.flaticon.com/icons/svg/174/174857.svg',
-                link: 'https://www.linkedin.com/in/p32929/'
+                link: 'https://www.linkedin.com/in/mdrayhan9464'
             },
-            {
-                title: 'Reddit',
-                logo: 'https://image.flaticon.com/icons/svg/174/174866.svg',
-                link: 'https://www.reddit.com/user/p32929'
-            },
-            {
-                title: 'Twitter',
-                logo: 'https://image.flaticon.com/icons/svg/733/733579.svg',
-                link: 'https://twitter.com/p32929'
-            },
-            {
-                title: 'Instagram',
-                logo: 'https://image.flaticon.com/icons/svg/2111/2111463.svg',
-                link: 'https://www.instagram.com/p32929/'
-            },
-            {
-                title: 'Fiverr',
-                logo: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/09/fiverr-2018.png?auto=format&q=60&fit=max&w=200',
-                link: 'https://www.fiverr.com/users/fayazbinsalam/'
-            },
-            {
-                title: "Freelancer",
-                logo: "https://lh3.googleusercontent.com/EXMdy4ai6HHl_Ze8vxC7pdQzfS0HFiZ70F2IdPq_VuYropTkrUFyPPlftbPKEbhISg",
-                link: "https://www.freelancer.com/u/p32929"
-            }
         ]
     },
-    {
-        text: "Thank you for visiting my portfolio",
-        arr: [
-            {
-                title: "Click on the link button",
-                desc: 'To create your own portfolio. It will only take 3 minutes',
-                logo: giftIcon,
-                link: 'https://github.com/p32929/p32929.github.io/'
-            }
-        ]
-    }
+    // {
+    //     text: "Apps I rarely use",
+    //     arr: [
+    //         {
+    //             title: 'LinkedIn',
+    //             logo: 'https://image.flaticon.com/icons/svg/174/174857.svg',
+    //             link: 'https://www.linkedin.com/in/p32929/'
+    //         },
+    //         {
+    //             title: 'Reddit',
+    //             logo: 'https://image.flaticon.com/icons/svg/174/174866.svg',
+    //             link: 'https://www.reddit.com/user/p32929'
+    //         },
+    //         {
+    //             title: 'Twitter',
+    //             logo: 'https://image.flaticon.com/icons/svg/733/733579.svg',
+    //             link: 'https://twitter.com/p32929'
+    //         },
+    //         {
+    //             title: 'Instagram',
+    //             logo: 'https://image.flaticon.com/icons/svg/2111/2111463.svg',
+    //             link: 'https://www.instagram.com/p32929/'
+    //         },
+    //         {
+    //             title: 'Fiverr',
+    //             logo: 'https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/09/fiverr-2018.png?auto=format&q=60&fit=max&w=200',
+    //             link: 'https://www.fiverr.com/users/fayazbinsalam/'
+    //         },
+    //         {
+    //             title: "Freelancer",
+    //             logo: "https://lh3.googleusercontent.com/EXMdy4ai6HHl_Ze8vxC7pdQzfS0HFiZ70F2IdPq_VuYropTkrUFyPPlftbPKEbhISg",
+    //             link: "https://www.freelancer.com/u/p32929"
+    //         }
+    //     ]
+    // },
+    // {
+    //     text: "Thank you for visiting my portfolio",
+    //     arr: [
+    //         {
+    //             title: "Click on the link button",
+    //             desc: 'To create your own portfolio. It will only take 3 minutes',
+    //             logo: giftIcon,
+    //             link: 'https://github.com/p32929/p32929.github.io/'
+    //         }
+    //     ]
+    // }
 ]
