@@ -247,7 +247,7 @@ export const projects = [
             {
                 title: 'Calculator',
                 logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7j6UsUyaEGat3jSDTWgjBuda-di6rc790Ng&usqp=CAU',
-                desc: 'The one and only EFFECTIVE addiction remover on Google Play store',
+                desc: 'Simple Android Calculator.',
             },
             {
                 title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮ - (Discontinued)',
