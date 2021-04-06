@@ -266,7 +266,7 @@ export const projects = [
             {
                 title: 'Food Store',
                 logo: 'https://thumbs.dreamstime.com/b/vegetables-shopping-cart-trolley-grocery-logo-icon-design-vector-171090350.jpg',
-                desc: 'A better & more reliable alternative of traditional foor store.',
+                desc: 'A better & more reliable alternative of traditional food store.',
             },
             {
                 title: 'Health Benefit of Sunnah',
