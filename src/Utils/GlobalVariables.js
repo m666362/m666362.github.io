@@ -360,7 +360,7 @@ export const projects = [
             {
                 title: 'Passenger Assistance in Bangladesh Railway',
                 logo: 'https://i.ibb.co/sFYYfLz/rail.png',
-                desc: 'Provides platform number , bogie sequence and train location through gsm technology.',
+                desc: 'Provides platform number , bogie sequence and train location through gps & gsm technology.',
             },
             {
                 title: 'JK Flip Flop Clock',
@@ -376,6 +376,16 @@ export const projects = [
                 title: 'Simple Power Bank',
                 logo: 'https://previews.123rf.com/images/urfandadashov/urfandadashov1809/urfandadashov180900149/109060416-powerbank-vector-icon-isolated-on-transparent-background-powerbank-logo-concept.jpg',
                 desc: 'My first electronics project using several electronic devices which works like power bank.',
+            },
+
+        ]
+    },
+    {
+        text: "Research Publication",
+        arr: [
+            {
+                title: 'Design of an Automated Vehicle Speed Detector and Surveillance System for Bangladesh',
+                logo: 'https://w7.pngwing.com/pngs/449/374/png-transparent-institute-of-electrical-and-electronics-engineers-electrical-engineering-ieee-xplore-ieee-power-energy-society-technology-electronics-logo-engineering.png',
             },
 
         ]
