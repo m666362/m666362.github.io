@@ -45,10 +45,6 @@ export const skills = [
                 logo: 'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg',
             },
             {
-                title: 'MATLAB',
-                logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/667px-Matlab_Logo.png',
-            },
-            {
                 title: 'SQL',
                 logo: 'https://www.svgrepo.com/show/255832/sql.svg',
             },
@@ -76,6 +72,44 @@ export const skills = [
                 title: 'XML',
                 logo: 'https://www.vectorlogo.zone/logos/w3c_xml/w3c_xml-icon.svg'
             },
+        ]
+    },
+    {
+        text: "EEE",
+        arr: [
+            {
+                title: 'MATLAB',
+                logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/667px-Matlab_Logo.png',
+            },
+            {
+                title: 'Control System',
+                logo: 'https://www.lucymaddison.com/wp-content/uploads/2018/03/control-systems-logos2.jpg',
+            },
+            {
+                title: 'Cadence',
+                logo: 'https://1000logos.net/wp-content/uploads/2020/08/Cadence-Logo.png',
+            },
+            {
+                title: 'Proteus',
+                logo: 'https://upload.wikimedia.org/wikipedia/en/5/5a/Proteus_Design_Suite_Atom_Logo.png',
+            },
+            {
+                title: 'Power System',
+                logo: 'https://w7.pngwing.com/pngs/380/541/png-transparent-electric-power-system-power-flow-study-power-system-simulation-electricity-octave-matlab-logo-engineering-electricity.png'
+            },
+            {
+                title: 'PLC',
+                logo: 'https://as1.ftcdn.net/jpg/02/44/80/22/500_F_244802275_q9MRSPTkxqD94Tg1KUjnM0Wu55NiHDDx.jpg'
+            },
+            {
+                title: 'Electronics',
+                logo: 'https://i.pinimg.com/originals/5c/00/e5/5c00e519ad324b8ae46e6c91bd3bdecc.jpg',
+            },
+            {
+                title: 'AC & DC',
+                logo: 'https://t4.ftcdn.net/jpg/03/33/33/75/360_F_333337529_tZ8ATDYFxHXSsJP3SHHdPdsA3oksz3Fj.jpg'
+            },
+
         ]
     },
     {
