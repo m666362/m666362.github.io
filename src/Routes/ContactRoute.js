@@ -35,7 +35,7 @@ const ContactRoute = () => {
         <Grid spacing={1} container xs item>
             {
                 contactInfos.map((item) => {
-                    return getTextAndListGrid(item, state.belowSm ? 90 : 80);
+                    return getTextAndListGrid(item, 96);
                 })
             }
         </Grid>

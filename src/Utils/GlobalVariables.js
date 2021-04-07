@@ -735,6 +735,7 @@ export const contactInfos = [
                 logo: 'https://image.flaticon.com/icons/svg/124/124010.svg',
                 link: 'https://www.facebook.com/mdrayhan9464'
             },
+
         ]
     },
     {
@@ -754,6 +755,11 @@ export const contactInfos = [
                 title: 'LinkedIn',
                 logo: 'https://image.flaticon.com/icons/svg/174/174857.svg',
                 link: 'https://www.linkedin.com/in/mdrayhan9464'
+            },
+            {
+                title: 'CV',
+                logo: 'https://seeklogo.com/images/C/cv-comunidad-valenciana-logo-CD417D951E-seeklogo.com.png',
+                link: 'https://drive.google.com/file/d/1sBTTVTkaVd_JEsoPlAKBHMlRT_BCILtJ/view?usp=sharing'
             },
         ]
     },
