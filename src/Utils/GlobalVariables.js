@@ -265,7 +265,7 @@ export const projects = [
         arr: [
             {
                 title: 'Library(Ongoing)',
-                logo: 'https://lh3.googleusercontent.com/proxy/Sfao1jWya4cMqJl0Q7W86BvOvTqF77djkjLAIwKlsAiOwfziVjQUJXcwnUnZRdgCKeyj6KKV8pEvkrLfk1aOCXJ6i2zvDu5TqSs4j7wQ4szni1DRaXvDd_u8MWJeBUSoaZL2y6d0i9fz137m2wgGLantcsbfMW_R5A0i5NHQWqe0nmg',
+                logo: 'https://images.vexels.com/media/users/3/216637/preview2/5cb9c03787ab7860fdd5dc4d13a72043-digital-library-logo-design.jpg',
                 desc: 'Digital platform to share, sell & buy old books',
             },
             {
