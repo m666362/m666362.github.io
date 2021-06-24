@@ -366,7 +366,7 @@ export const projects = [
             // },
             {
                 title: 'Server CRUD',
-                logo: 'https://image.flaticon.com/icons/svg/415/415587.svg',
+                logo: 'https://i.morioh.com/683b232a73.png',
                 desc: 'Create, Read, Update & Delete method testing',
                 link: 'https://github.com/m666362/Server-testing-android-for-client-practice'
             },
