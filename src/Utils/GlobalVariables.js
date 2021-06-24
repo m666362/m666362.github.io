@@ -264,35 +264,45 @@ export const projects = [
         text: "Android Apps",
         arr: [
             {
+                title: 'Library(Ongoing)',
+                logo: 'https://lh3.googleusercontent.com/proxy/Sfao1jWya4cMqJl0Q7W86BvOvTqF77djkjLAIwKlsAiOwfziVjQUJXcwnUnZRdgCKeyj6KKV8pEvkrLfk1aOCXJ6i2zvDu5TqSs4j7wQ4szni1DRaXvDd_u8MWJeBUSoaZL2y6d0i9fz137m2wgGLantcsbfMW_R5A0i5NHQWqe0nmg',
+                desc: 'Digital platform to share, sell & buy old books',
+            },
+            {
                 title: 'Food Store',
                 logo: 'https://thumbs.dreamstime.com/b/vegetables-shopping-cart-trolley-grocery-logo-icon-design-vector-171090350.jpg',
                 desc: 'A better & more reliable alternative of traditional food store.',
+                link: "https://gitlab.com/m666362/single-data-firebase-database-android-practice"
             },
             {
                 title: 'Health Benefit of Sunnah',
                 logo: 'https://lh3.googleusercontent.com/ILrto9KguXlr-clbhYKUonpnHszgNp_N5Qvc8_u9QaM71oaqNKcYql2sV3sqZ7nqzsc=s180',
                 desc: 'Details description of Sunnah way of life.',
+                link: "https://gitlab.com/m666362/single-data-firebase-database-android-practice"
             },
             {
                 title: 'FireBase Chat',
                 logo: 'https://image.freepik.com/free-vector/chat-logo-design_93835-108.jpg',
                 desc: 'Powerful, Lightweight firebase chat app.',
+                link: "https://gitlab.com/m666362/single-data-firebase-database-android-practice"
             },
             {
                 title: 'Calculator',
                 logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7j6UsUyaEGat3jSDTWgjBuda-di6rc790Ng&usqp=CAU',
                 desc: 'Simple Android Calculator.',
+                link: "https://github.com/m666362/Android-Calculator"
             },
             {
                 title: 'ফিফা ওয়ার্ল্ডকাপ ২০১৮ - (Discontinued)',
                 logo: 'https://lh3.googleusercontent.com/zuluY4xOXx7PIMCvul4fowmOvMlc-3wsHwxGAASo3qZQ-9byd-uJWZ9kzUgclD4Nhrg=s180',
                 desc: 'FIFA Worldcup 2018 All In One.',
+                link: "https://apkpure.com/%E0%A6%AB%E0%A6%BF%E0%A6%AB%E0%A6%BE-%E0%A6%93%E0%A7%9F%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%A1%E0%A6%95%E0%A6%BE%E0%A6%AA-%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%AE-live-tv-scores-more/p32929.worldcup2018"
             },
             // {
             //     title: 'Best CGPA Calculator',
             //     logo: 'https://lh3.googleusercontent.com/trpGkuBRWnBXNDNyts-7ePwmPtTLQ_8pKoMWi-6Iy8eBomjZ8XrVi4zQcEWrmoGLKA=s180',
             //     desc: 'A simple Android calculator',
-            //     link: 'https://apkpure.com/best-cgpa-calculator/p32929.cgpa_calculator2'
+                // link: 'https://apkpure.com/best-cgpa-calculator/p32929.cgpa_calculator2'
             // },
             // {
             //     title: 'Buy Sell BD',
@@ -355,10 +365,10 @@ export const projects = [
             //     link: ''
             // },
             {
-                title: 'BirthdayBot',
+                title: 'Server CRUD',
                 logo: 'https://image.flaticon.com/icons/svg/415/415587.svg',
-                desc: 'Birthday wishing apps, made for individual people...',
-                link: ''
+                desc: 'Create, Read, Update & Delete method testing',
+                link: 'https://github.com/m666362/Server-testing-android-for-client-practice'
             },
         ]
     },
@@ -366,24 +376,34 @@ export const projects = [
         text: "WebApps",
         arr: [
             {
-                title: 'Multi-Poster ( Ongoing )',
+                title: 'Multi-Poster (Material-ui Ongoing)',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
                 desc: 'Post status, image and video on facebook, twitter and youtube by one click.',
+                link: "https://gitlab.com/richit/multiposter_reactjs_siemens"
+            },
+            {
+                title: 'E-Medicine (Theme-ui Ongoing )',
+                logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
+                desc: 'Online Medicine Service.',
+                link: "https://gitlab.com/richit/multiposter_reactjs_siemens"
             },
             {
                 title: 'React Calculator',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
                 desc: 'Simple React Calculator.',
+                link: 'https://m666362.github.io/React_calculator/'
             },
             {
                 title: 'React Todo App',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
                 desc: 'Organize your task.',
+                link: 'https://m666362.github.io/React-to-do-app/'
             },
             {
                 title: 'IndecisionApp',
                 logo: 'https://image.flaticon.com/icons/svg/2762/2762575.svg',
                 desc: 'My first ReactJS app.',
+                link: 'https://m666362.github.io/Indicision/'
             },
 
         ]
@@ -720,6 +740,12 @@ export const contactInfos = [
         text: "Contact me",
         arr: [
             {
+                title: 'Mail',
+                logo: 'https://image.flaticon.com/icons/png/512/552/552486.png',
+                desc: 'mdrayhan9464@gmail.com',
+                link: 'https://mail.google.com/mail/u/0/#sent?compose=DmwnWsTQQCSHHVmMbqZJZWPHFzxJppqHjRqVKWlnLwzVTQdSbfLBcMzHgLvnFpnCxTxJlwVVVKKL'
+            },
+            {
                 title: 'Skype',
                 logo: 'https://image.flaticon.com/icons/svg/174/174869.svg',
                 desc: '8801766324950',
@@ -759,7 +785,7 @@ export const contactInfos = [
             {
                 title: 'CV',
                 logo: 'https://seeklogo.com/images/C/cv-comunidad-valenciana-logo-CD417D951E-seeklogo.com.png',
-                link: 'https://drive.google.com/file/d/1sBTTVTkaVd_JEsoPlAKBHMlRT_BCILtJ/view?usp=sharing'
+                link: 'https://drive.google.com/file/d/1mxjDST4OAGTkjswheLfTlxW3pkpUhD2S/view?usp=sharing'
             },
         ]
     },
