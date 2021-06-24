@@ -36,7 +36,7 @@ export const giftIcon = 'https://image.flaticon.com/icons/svg/1867/1867817.svg'
 // First page infos
 export var myName = 'Md Rayhan'
 export var myOccupation = 'Software dev at Parking Koi';
-export var myDetails = 'Hello, I am Md. Rayhan. Basically I am an electrical engineer but I love programming most. I am a professional Android and Web developer expertise in ReactJS, NodeJs, and Android(Java). I have built several mobile and web applications & done several robotics projects in Android, ReactJS, NodeJS, JavaScript, Arduino, etc. Worked in so many libraries & frameworks using many tools like Git, Firebase, npm, Heroku, yarn, etc. It feels good to see the world around me are being changed bit by bit.'
+export var myDetails = 'Hello, I am Md. Rayhan. Basically, I am an electrical engineer but I love programming most. I am a professional Android and Web developer expertise in ReactJS, NodeJs, and Android(Java). I have built several mobile and web applications and I have done several robotics projects in Android, ReactJS, NodeJS, JavaScript, Arduino, etc. Moreover, I have worked in many libraries and frameworks using many tools like Git, Firebase, npm, Heroku, yarn, etc. It feels good to see the world around me changes is being changed bit by bit.'
 export var myImageLink = "";
 export var primaryColor = '#6200EA';
 
