@@ -30,12 +30,13 @@ export const skypeIcon = "M18,6C20.07,8.04 20.85,10.89 20.36,13.55C20.77,14.27 2
 export const facebookIcon = 'M12 2.04C6.5 2.04 2 6.53 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85C10.44 7.34 11.93 5.96 14.22 5.96C15.31 5.96 16.45 6.15 16.45 6.15V8.62H15.19C13.95 8.62 13.56 9.39 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96A10 10 0 0 0 22 12.06C22 6.53 17.5 2.04 12 2.04Z';
 export const linkIcon = 'M10.59,13.41C11,13.8 11,14.44 10.59,14.83C10.2,15.22 9.56,15.22 9.17,14.83C7.22,12.88 7.22,9.71 9.17,7.76V7.76L12.71,4.22C14.66,2.27 17.83,2.27 19.78,4.22C21.73,6.17 21.73,9.34 19.78,11.29L18.29,12.78C18.3,11.96 18.17,11.14 17.89,10.36L18.36,9.88C19.54,8.71 19.54,6.81 18.36,5.64C17.19,4.46 15.29,4.46 14.12,5.64L10.59,9.17C9.41,10.34 9.41,12.24 10.59,13.41M13.41,9.17C13.8,8.78 14.44,8.78 14.83,9.17C16.78,11.12 16.78,14.29 14.83,16.24V16.24L11.29,19.78C9.34,21.73 6.17,21.73 4.22,19.78C2.27,17.83 2.27,14.66 4.22,12.71L5.71,11.22C5.7,12.04 5.83,12.86 6.11,13.65L5.64,14.12C4.46,15.29 4.46,17.19 5.64,18.36C6.81,19.54 8.71,19.54 9.88,18.36L13.41,14.83C14.59,13.66 14.59,11.76 13.41,10.59C13,10.2 13,9.56 13.41,9.17Z'
 
+
 // SVG icons
 export const giftIcon = 'https://image.flaticon.com/icons/svg/1867/1867817.svg'
 
 // First page infos
 export var myName = 'Md Rayhan'
-export var myOccupation = 'Software dev at Parking Koi';
+export var myOccupation = 'Software dev at Parking Koi & Insta Web Work';
 export var myDetails = 'Hello, I am Md. Rayhan. Basically, I am an electrical engineer but I love programming most. I am a professional Android and Web developer expertise in ReactJS, NodeJs, and Android(Java). I have built several mobile and web applications and I have done several robotics projects in Android, ReactJS, NodeJS, JavaScript, Arduino, etc. Moreover, I have worked in many libraries and frameworks using many tools like Git, Firebase, npm, Heroku, yarn, etc. It feels good to see the world around me changes is being changed bit by bit.'
 export var myImageLink = "";
 export var primaryColor = '#6200EA';
