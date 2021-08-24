@@ -783,12 +783,23 @@ export const contactInfos = [
                 link: 'https://www.linkedin.com/in/mdrayhan9464'
             },
             {
-                title: 'CV',
-                logo: 'https://seeklogo.com/images/C/cv-comunidad-valenciana-logo-CD417D951E-seeklogo.com.png',
+                title: 'Resume',
+                logo: 'https://www.clipartmax.com/png/middle/308-3085721_resume-png-clipart-my-resume-icon-png.png',
                 link: 'https://drive.google.com/file/d/1mxjDST4OAGTkjswheLfTlxW3pkpUhD2S/view?usp=sharing'
+            },
+            {
+                title: 'English Bio-data',
+                logo: 'https://i.pinimg.com/originals/3b/67/f5/3b67f5a369bcdd5bb2f6c9dddbc8e4d1.png',
+                link: 'https://drive.google.com/file/d/1Hm2ACGl2b1B2uEsTYKesY8F63u7SzIrf/view?usp=sharing'
+            },
+            {
+                title: 'Bangla Bio-data',
+                logo: 'https://i.pinimg.com/originals/3b/67/f5/3b67f5a369bcdd5bb2f6c9dddbc8e4d1.png',
+                link: 'https://ordhekdeen.com/biodatas/13024/'
             },
         ]
     },
+    // https://seeklogo.com/images/C/cv-comunidad-valenciana-logo-CD417D951E-seeklogo.com.png // cv logo
     // {
     //     text: "Apps I rarely use",
     //     arr: [
