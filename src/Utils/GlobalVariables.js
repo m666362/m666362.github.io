@@ -441,7 +441,10 @@ export const projects = [
                 title: 'Design of an Automated Vehicle Speed Detector and Surveillance System for Bangladesh',
                 logo: 'https://w7.pngwing.com/pngs/449/374/png-transparent-institute-of-electrical-and-electronics-engineers-electrical-engineering-ieee-xplore-ieee-power-energy-society-technology-electronics-logo-engineering.png',
             },
-
+            {
+                title: 'Design and Implementation of a Passenger Assistance In Bangladesh Railway (Under Review)',
+                logo: 'https://w7.pngwing.com/pngs/449/374/png-transparent-institute-of-electrical-and-electronics-engineers-electrical-engineering-ieee-xplore-ieee-power-energy-society-technology-electronics-logo-engineering.png',
+            },
         ]
     },
     // {
@@ -787,6 +790,11 @@ export const contactInfos = [
                 logo: 'https://www.clipartmax.com/png/middle/308-3085721_resume-png-clipart-my-resume-icon-png.png',
                 link: 'https://drive.google.com/file/d/1mxjDST4OAGTkjswheLfTlxW3pkpUhD2S/view?usp=sharing'
             },
+        ]
+    },
+    {
+        text: "Marriage Profiles",
+        arr: [
             {
                 title: 'English Bio-data',
                 logo: 'https://i.pinimg.com/originals/3b/67/f5/3b67f5a369bcdd5bb2f6c9dddbc8e4d1.png',
